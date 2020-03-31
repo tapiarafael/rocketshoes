@@ -41,6 +41,8 @@ module.exports = {
           "input"
         ]
       }
-    ]
+    ],
+    'no-param-reassign': 'off',
+    'no-console': ["error", { allow: ["tron"] }],
   },
 };
